@@ -13,9 +13,10 @@ if($url != ""){
 
     $electromarket_site_id = 'UAdFgvuPmlrcfGwoSLgtSPmPnJoIsmue';
     $electromarket_secret = '5DoEZSovPPzVivmpyE3NAPVYnscRf5Abs7VuYM8HoTz8PgEedpgOtoPukOc8svea';
-    
+
     $nitro = new NitroPack\SDK\NitroPack($electromarket_site_id, $electromarket_secret);
-    $nitro->purgeCache("/beamz-s500-smoke-machine-with-100ml-fluid")
+
+    $nitro->purgeCache("https://electromarket.co.uk/".$url)
 
     echo($params['url']." purged");
 }else{
