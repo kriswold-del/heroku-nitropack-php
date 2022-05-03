@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/vendor/autoload.php';
 
 echo("test.php");
-$nitro = new NitroPack('site_id', 'secret');
 
-$nitro->purgeCache('https://example.com/', null, PurgeType::COMPLETE, 'TEST');
+//$nitro = new NitroPack('site_id', 'secret');
+//$nitro->purgeCache('https://example.com/', null, PurgeType::COMPLETE, 'TEST');
 ?>
