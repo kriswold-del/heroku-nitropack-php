@@ -4,7 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 if($_GET["url"]){
-    $url = $_GET["url"];
+    $url = "https://electromarket.co.uk/".$_GET["url"];
     //require_once('autoload.php');
 
     //$electromarket_sandbox_site_id= 'MMCxCaRKaBRecqSCPxgOCLwQvVtWLLKQ';
@@ -15,7 +15,7 @@ if($_GET["url"]){
 
     //$nitro = new NitroPack\SDK\NitroPack($electromarket_site_id, $electromarket_secret);
 
-    //$nitro->purgeCache("https://electromarket.co.uk/".$url)
+    //$nitro->purgeCache($url)
 
      echo($url." purged");
  }else{
