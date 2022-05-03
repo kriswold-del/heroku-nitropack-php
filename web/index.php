@@ -7,7 +7,7 @@ if($_GET["url"]){
     $url = "https://electromarket.co.uk/".$_GET["url"];
     require_once('autoload.php');
 
-    $electromarket_sandbox_site_i d= 'MMCxCaRKaBRecqSCPxgOCLwQvVtWLLKQ';
+    $electromarket_sandbox_site_id = 'MMCxCaRKaBRecqSCPxgOCLwQvVtWLLKQ';
     $electromarket_sandbox_secret = 'm65rqd7GLtgifSigYvO1oGDwEJyeNhrz1kR3LoGZuRunj90wv1wIiK6zf8rIvq3G';
 
     //$electromarket_site_id = 'UAdFgvuPmlrcfGwoSLgtSPmPnJoIsmue';
