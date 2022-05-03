@@ -2,9 +2,10 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
 $url = $_GET["url"];
 
-if($url != ""){
+if($url <> ""){
     require_once('autoload.php');
 
     $electromarket_sandbox_site_id= 'MMCxCaRKaBRecqSCPxgOCLwQvVtWLLKQ';
