@@ -1,38 +1,15 @@
 {
-  "name": "macroman/nitropack-api",
+  "name": "nitropack-api",
   "description": "Unofficial API adapter for Nitropack",
   "version": "0.0.2",
-  "type": "library",
-  "homepage": "https://github.com/MacroMan/nitropack-api",
   "license": "GPL-3.0-or-later",
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org"
-    }
-  ],
   "authors": [
     {
-      "name": "Ivailo Hristov"
-    },
-    {
-      "name": "Simeon Totev"
-    },
-    {
-      "name": "Martin Tsvetkov"
-    },
-    {
-      "name": "David Wakelin",
-      "email": "hello@davidwakelin.co.uk"
+      "name": "Kris Wold"
     }
   ],
   "require": {
     "php": ">=7.3|>=8.0"
-  },
-  "autoload": {
-    "psr-0": {
-      "NitroPack": "src/"
-    }
   },
   "minimum-stability": "dev"
 }
