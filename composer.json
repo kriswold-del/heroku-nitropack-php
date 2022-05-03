@@ -1,15 +1,11 @@
 {
-  "name": "nitropack-api",
-  "description": "Unofficial API adapter for Nitropack",
-  "version": "0.0.2",
-  "license": "GPL-3.0-or-later",
-  "authors": [
-    {
-      "name": "Kris Wold"
-    }
-  ],
-  "require": {
-    "php": ">=7.3|>=8.0"
+  "require" : {
+    "silex/silex": "^2.0.4",
+    "monolog/monolog": "^1.22",
+    "twig/twig": "^2.0",
+    "symfony/twig-bridge": "^3"
   },
-  "minimum-stability": "dev"
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
 }
